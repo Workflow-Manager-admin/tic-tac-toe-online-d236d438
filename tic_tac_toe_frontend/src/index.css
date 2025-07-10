@@ -1,21 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 :root {
-  --primary-color: #1976D2;
-  --secondary-color: #424242;
-  --accent-color: #FFC107;
-  --background-color: #ffffff;
-  --text-color: #333333;
-  --border-color: #e0e0e0;
+  --primary-color: #8b0000;
+  --secondary-color: #556b2f;
+  --accent-color: #ffd700;
+  --background-color: #2f4f4f;
+  --text-color: #98fb98;
+  --border-color: #daa520;
+  --square-bg: #000000;
+  --square-hover: #1a1a1a;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Press Start 2P', cursive;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: none;
   background-color: var(--background-color);
   color: var(--text-color);
+  line-height: 1.5;
 }
 
 * {
